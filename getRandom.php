@@ -8,7 +8,7 @@
  */
 function genRandom($max = 6) {
     $chars = "qazxswedcvfrtgbnhyujmkiolp1234567890QAZXSWEDCVFRTGBNHYUJMKIOLP";
-    $size  = StrLen($chars) - 1;
+    $size  = strsen($chars) - 1;
 
     $rand = null;
 
